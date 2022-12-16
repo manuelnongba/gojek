@@ -1,0 +1,154 @@
+footer {
+  padding: 80px 0;
+  --tw-bg-opacity: 1;
+  background-color: rgba(16, 24, 32, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+footer img {
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+.landing-footer-summary {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin-left: 150px;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+.landing-footer-summary li {
+  margin: 20px 0;
+  list-style: none;
+  margin-left: 0;
+}
+
+.landing-footer-summary a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 80px;
+}
+
+.footer-connect {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-connect img {
+  /* color: #fff; */
+  background-color: #fff;
+  border: 0 0;
+  width: 40px;
+}
+
+.footer-connect p {
+  margin-left: 180px;
+}
+
+.footer-connect ul {
+  display: inline-block;
+  margin-right: 200px;
+}
+
+.footer-connect li {
+  float: left;
+  width: 51px;
+  padding-right: 5px;
+  list-style: none;
+}
+
+.download-the-app li {
+  display: flex;
+  float: right;
+}
+
+.download-the-app button {
+  width: 40px;
+  height: 40px;
+}
+
+.download-the-app img {
+  width: 40px;
+  height: 40px;
+  /* margin-right: 100px; */
+  background-color: #fff;
+}
+
+.download-the-app li {
+  float: left;
+  width: 100px;
+}
+
+.download-the-app p {
+  margin-left: 180px;
+}
+
+.footer-privacy {
+  display: flex;
+  margin-left: 110px;
+}
+
+.footer-privacy li {
+  list-style: none;
+}
+
+.footer-privacy a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-location {
+  position: relative;
+}
+
+.footer-location select {
+  position: absolute;
+  right: 600px;
+  bottom: 20px;
+  cursor: pointer;
+  border-radius: 32px;
+  padding: 12px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  --tw-border-opacity: 1;
+  border: 1px solid rgba(31, 45, 61, var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(16, 24, 32, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  width: 100px;
+  min-width: 260px;
+}
+
+.footer-lang {
+  position: relative;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-lang select {
+  position: absolute;
+  right: 250px;
+  bottom: 20px;
+  cursor: pointer;
+  border-radius: 32px;
+  padding: 12px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  --tw-border-opacity: 1;
+  border: 1px solid rgba(31, 45, 61, var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(16, 24, 32, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  width: 100px;
+  min-width: 260px;
+}
+
+.copyright {
+  margin: 0 150px;
+}

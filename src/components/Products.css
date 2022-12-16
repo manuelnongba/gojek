@@ -1,0 +1,92 @@
+.product-one {
+  width: 100%;
+  height: 800px;
+  background-image: url("../../public/pushing-p.png");
+}
+
+.product-one h1 {
+  margin-top: 250px;
+  margin-left: 150px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.product {
+  height: 650px;
+  position: relative;
+  margin-top: -20px;
+}
+
+.product-three {
+  position: relative;
+  background-color: rgb(99, 185, 99);
+}
+
+.transport-lo img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.product h2 {
+  margin-left: 100px;
+}
+
+.three-heading {
+  padding-top: 80px;
+}
+
+.three-heading p {
+  margin-left: 100px;
+  font-family: "Courier New";
+}
+
+.product-card {
+  background-color: #fff;
+  border: 0;
+  border-radius: 30px;
+  width: 250px;
+  height: 200px;
+  margin-top: 100px;
+  padding: 20px 20px;
+  z-index: 2;
+}
+
+.product-goride {
+  position: absolute;
+  left: 100px;
+}
+
+.product-gocar {
+  position: absolute;
+  left: 420px;
+}
+
+.product-gosend {
+  position: absolute;
+  left: 740px;
+}
+
+.product-gobluebird {
+  position: absolute;
+  left: 1060px;
+}
+
+.product-gobox {
+  position: absolute;
+  left: 1380px;
+}
+
+.product-four {
+  background-color: rgb(94, 191, 223);
+  position: relative;
+}
+
+.product-five {
+  background-color: rgb(229, 121, 121);
+}
+
+.product-six {
+  background-color: rgb(206, 138, 206);
+}
