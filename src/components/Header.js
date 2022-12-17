@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -15,20 +15,20 @@ const Header = () => {
   //   {/* Add a span element and a div with links */}
   //   <span onClick={handleClick}>Click me</span>
   //   <div style={{ display: isVisible ? "block" : "none" }}>
-  //     <a href="#">Link 1</a>
-  //     <a href="#">Link 2</a>
+  //     <a href="#">NavLink 1</a>
+  //     <a href="#">NavLink 2</a>
   //   </div>
   // </>;
 
   return (
     <div className="header">
-      <Link to="/" className="header-img">
+      <NavLink to="/" className="header-img">
         <img src="../logo.svg" alt="logo" />
-      </Link>
+      </NavLink>
       <div className="header-right">
-        <Link to="/" className="header-home">
+        <NavLink to="/" className="header-home">
           Home
-        </Link>
+        </NavLink>
         <span className="header-partner" onClick={handleClick}>
           Partner with us
         </span>
@@ -36,23 +36,22 @@ const Header = () => {
           style={{ display: isVisible ? "block" : "none" }}
           className="hidden-div"
         >
-          <Link to="/driver">Driver Partner</Link>
-          <br></br>
-          <Link to="/merchant">Merchant Partner</Link>
+          <NavLink to="/driver">Driver Partner</NavLink>
+          <NavLink to="/merchant">Merchant Partner</NavLink>
         </div>
-        {/* <Link to="/employee" className="header-careers">
+        {/* <NavLink to="/employee" className="header-careers">
           Careers
-        </Link> */}
+        </NavLink> */}
         {/* <span className="header-company">Company</span> */}
-        <Link to="/products" className="header-products">
+        <NavLink to="/products" className="header-products">
           Products
-        </Link>
-        {/* <Link to="/blog" className="header-blog">
+        </NavLink>
+        {/* <NavLink to="/blog" className="header-blog">
           Blog
-        </Link>
-        <Link to="/help" className="header-help">
+        </NavLink>
+        <NavLink to="/help" className="header-help">
           Help
-        </Link> */}
+        </NavLink> */}
         <span className="header-lang">en</span>
       </div>
     </div>

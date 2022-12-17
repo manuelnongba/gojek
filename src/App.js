@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Driver from "./components/Driver";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Landing from "./components/Landing";
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" exact element={<Landing />}></Route>
           <Route path="/products" exact element={<Products />}></Route>
+          <Route path="/driver" exact element={<Driver />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

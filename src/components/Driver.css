@@ -1,0 +1,169 @@
+.driver-one {
+  height: 780px;
+  width: 100%;
+  background: linear-gradient(rgba(59, 58, 58, 0.5), rgba(112, 110, 110, 0.5)),
+    url("../../public/driver.png");
+  background-size: 1450px;
+}
+
+.driver-one h1 {
+  margin-top: 200px;
+  margin-left: 150px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.driver-one p {
+  margin-left: 150px;
+  color: #fff;
+}
+
+.driver-two {
+  background-color: rgba(16, 24, 32);
+  height: 500px;
+  margin-top: -20px;
+}
+
+.driver-card {
+  background-color: rgba(16, 24, 32);
+  border: 0;
+  border-radius: 30px;
+  width: 250px;
+  height: 200px;
+  margin-top: 100px;
+  padding: 20px 20px;
+  z-index: 2;
+  color: #fff;
+}
+
+.driver-three {
+  height: 1500px;
+  margin-top: 100px;
+}
+
+.driver-three h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.driver-three .header-p {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.service-card-one {
+  width: 280px;
+  background-color: rgb(116, 179, 116);
+  border-radius: 45px;
+  height: 450px;
+}
+
+.service-card-one h3 {
+  padding: 0px 30px;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.service-card-one p {
+  padding: 0px 30px;
+}
+
+.service-card-one img {
+  width: 280px;
+  margin-top: 40px;
+}
+
+.service-card-two {
+  width: 280px;
+  background-color: rgba(255, 128, 139);
+  border-radius: 45px;
+  height: 450px;
+}
+
+.service-card-two h3 {
+  padding: 0px 30px;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.service-card-two p {
+  padding: 0px 30px;
+}
+
+.service-card-two img {
+  width: 280px;
+  margin-top: 40px;
+}
+
+.service-card-three {
+  width: 280px;
+  background-color: rgba(164, 219, 232);
+  border-radius: 45px;
+  height: 450px;
+}
+
+.service-card-three h3 {
+  padding: 0px 30px;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.service-card-three p {
+  padding: 0px 30px;
+}
+
+.service-card-three img {
+  width: 280px;
+  margin-top: 40px;
+}
+
+.service-card-four {
+  width: 280px;
+  background-color: rgba(255, 143, 28);
+  border-radius: 45px;
+  height: 450px;
+}
+
+.service-card-four h3 {
+  padding: 0px 30px;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.service-card-four p {
+  padding: 0px 30px;
+}
+
+.service-card-four img {
+  width: 280px;
+  margin-top: 40px;
+}
+
+.story-from-partners {
+  text-align: center;
+  margin-top: 650px;
+  font-size: 26px;
+  position: relative;
+}
+
+iframe {
+  width: 400px;
+  height: 250px;
+  border-radius: 35px;
+}
+
+.quote {
+  width: 400px;
+}
+
+.video-two {
+  position: absolute;
+  right: 480px;
+}
+
+.video-three {
+  position: absolute;
+  right: 40px;
+}
+/* 
+"https://www.youtube.com/embed/aXTUdy0Svy0?enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer&amp;controls=1&amp;showinfo=0&amp;rel=0&amp;autoplay=0&amp;loop=0&amp;mute=0&amp;playsinline=1"> */
