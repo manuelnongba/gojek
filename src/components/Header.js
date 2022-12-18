@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 
@@ -11,19 +11,33 @@ const Header = () => {
     setIsVisible(!isVisible);
   };
 
-  // <>
-  //   {/* Add a span element and a div with links */}
-  //   <span onClick={handleClick}>Click me</span>
-  //   <div style={{ display: isVisible ? "block" : "none" }}>
-  //     <a href="#">NavLink 1</a>
-  //     <a href="#">NavLink 2</a>
-  //   </div>
-  // </>;
+  const divRef = useRef(null);
+
+  useEffect(() => {
+    // Attach an event listener to the document that listens for clicks
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  function handleClickOutside(event) {
+    // If the user clicks outside the div, hide it
+    if (divRef.current && !divRef.current.contains(event.target)) {
+      divRef.current.style.display = "none";
+      setIsVisible(false);
+    }
+  }
 
   return (
     <div className="header">
       <NavLink to="/" className="header-img">
-        <img src="../logo.svg" alt="logo" />
+        <img
+          src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329346/logo_udz5kn.svg"
+          alt="logo"
+        />
       </NavLink>
       <div className="header-right">
         <NavLink to="/" className="header-home">
@@ -35,6 +49,7 @@ const Header = () => {
         <div
           style={{ display: isVisible ? "block" : "none" }}
           className="hidden-div"
+          ref={divRef}
         >
           <NavLink to="/driver">Driver Partner</NavLink>
           <NavLink to="/merchant">Merchant Partner</NavLink>

@@ -1,20 +1,49 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Header from "./Header";
 import ImageSlider from "./ImageSlider";
 import "./Landing.css";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import GoLoyalty from "./GoLoyalty";
-// import Carousel from "react-multi-carousel";
-// import "react-multi-carousel/lib/styles.css";
+import CountrySlider from "./CountrySlider";
 
 const Landing = () => {
+  const [counter, setCounter] = useState(0);
+  const [rotate, setRotate] = useState({ transform: `rotate(90deg)` });
   const slides = [
-    { url: "./game.png", title: "game" },
-    { url: "./arts.png", title: "" },
-    { url: "./mask.png", title: "j3k" },
-    { url: "./j3k.png", title: "j3k" },
+    {
+      url: "https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329394/game_mj6lwz.webp",
+      title: "game",
+    },
+    {
+      url: "https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329738/arts_z5c5aj.webp",
+      title: "",
+    },
+    {
+      url: "https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329759/mask_tcx7zh.webp",
+      title: "j3k",
+    },
+    {
+      url: "https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329780/j3k_c3o2po.webp",
+      title: "j3k",
+    },
+  ];
+
+  const countrySlides = [
+    {
+      h3: "Thailand",
+      p: " With close to 40,000 GoFood merchants, we're one of the fastest growing food delivery platforms in Thailand.",
+    },
+    {
+      h3: "Indonesia",
+      p: " In 2019, Gojek added $7.1 billion to the Indonesian economy, transforming employment and quality of life.",
+    },
+    {
+      h3: "Singapore",
+      p: "Clocking 30 million trips in its first year of operation - a threefold increase in just six months - Gojek is scaling like a raging bull.",
+    },
+    {
+      h3: "Vietnam",
+      p: "Over 80,000 GoFood merchants and 150,000 driver partners help millions of our customers eat, move, repeat!",
+    },
   ];
 
   const ref1 = useRef();
@@ -61,26 +90,18 @@ const Landing = () => {
       s.current.style.transform = `translateX(${105 * (i - curSlide)}%)`;
     });
   };
-  // const responsive = {
-  //   superLargeDesktop: {
-  //     // the naming can be any, depends on you.
-  //     breakpoint: { max: 4000, min: 3000 },
-  //     items: 5,
-  //   },
-  //   desktop: {
-  //     breakpoint: { max: 3000, min: 1024 },
-  //     items: 3,
-  //   },
-  //   tablet: {
-  //     breakpoint: { max: 1024, min: 464 },
-  //     items: 2,
-  //   },
-  //   mobile: {
-  //     breakpoint: { max: 464, min: 0 },
-  //     items: 1,
-  //   },
-  // };
 
+  const rotateImagePrev = () => {
+    setCounter(counter - 90);
+    setRotate({ ...rotate, transform: `rotate(${counter}deg)` });
+  };
+
+  const rotateImageNext = () => {
+    setCounter(counter + 90);
+    setRotate({ ...rotate, transform: `rotate(${counter}deg)` });
+  };
+
+  console.log(rotate);
   return (
     <div className="main">
       <section className="landing-first">
@@ -89,7 +110,12 @@ const Landing = () => {
           3 countries.<br></br>20+ products.<br></br> 1 leading<br></br>
           on-demand platform.
         </h1>
-        <video src="./gojekad.mp4" autoPlay loop muted />
+        <video
+          src="https://res.cloudinary.com/drxwuqu3v/video/upload/v1671242506/gojekad_uxmjbb.mp4"
+          autoPlay
+          loop
+          muted
+        />
       </section>
       <section className="landing-second">
         <h1>
@@ -124,7 +150,9 @@ const Landing = () => {
         </div>
         <div>
           <h1>We scale like a dream</h1>
-          <button>Scale with us</button>
+          <a href="https://www.gojek.com/en-id/employee/">
+            <button>Scale with us</button>
+          </a>
         </div>
         <div className="landing-third-sec-sub">
           <div className="landing-190">
@@ -187,7 +215,7 @@ const Landing = () => {
       <div className="landing-fifth">
         <h2>Join the ride</h2>
       </div>
-      <section className="landing-six">
+      <div className="six-sub">
         <div className="landing-six-img1">
           <div>
             <img
@@ -245,7 +273,8 @@ const Landing = () => {
             </a>
           </div>
         </div>
-      </section>
+      </div>
+      <section className="landing-six"></section>
       <section className="landing-seven">
         <h2>Perks of being in good company</h2>
         <div className="free-couns">
@@ -294,15 +323,6 @@ const Landing = () => {
               </a>
             </div>
           </div>
-          {/* <div className="fly" ref={ref4}>
-            <h3>Parental insurance</h3>
-            <p>Subsidised health support for your parents.</p>
-            <div>
-              <a href="./employee/#the-perks-of-being-in-good-company">
-                <button>View all</button>
-              </a>
-            </div>
-          </div> */}
         </div>
         <button class="slider__btn slider__btn--left" onClick={goPrev}>
           &larr;
@@ -325,59 +345,18 @@ const Landing = () => {
         <div>
           <div>
             <div>
-              <div>
-                <div className="thailand">
-                  <h3>Thailand</h3>
-                  <p>
-                    With close to 40,000 GoFood merchants, we're one of the
-                    fastest growing food delivery platforms in Thailand.
-                  </p>
-                </div>
-                {/* 
-                <div>
-                  <div className="indonesia">
-                    <h3>Indonesia</h3>
-                    <p>
-                      In 2019, Gojek added $7.1 billion to the Indonesian
-                      economy, transforming employment and quality of life.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="singapore">
-                  <h3>Singapore</h3>
-                  <p>
-                    Clocking 30 million trips in its first year of operation - a
-                    threefold increase in just six months - Gojek is scaling
-                    like a raging bull.
-                  </p>
-                </div>
-
-                <div className="vietnam">
-                  <h3>Vietnam</h3>
-                  <p>
-                    Over 80,000 GoFood merchants and 150,000 driver partners
-                    help millions of our customers eat, move, repeat!
-                  </p>
-                </div> */}
+              <div className="countries">
+                <CountrySlider
+                  countrySlides={countrySlides}
+                  rotateImagePrev={rotateImagePrev}
+                  rotateImageNext={rotateImageNext}
+                />
               </div>
-              {/* <div>
-                <button></button>
-                <button></button>
-                <button></button>
-                <button></button>
-              </div> */}
             </div>
 
             <a href="https://newsroom.gojek.com/">
               <button className="second-newsroom">Enter newsroom</button>
             </a>
-            {/* <button>
-              <i></i>
-            </button>
-            <button>
-              <i></i>
-            </button> */}
           </div>
           <div>
             <div>
@@ -392,6 +371,7 @@ const Landing = () => {
                 className="globe"
                 alt="We've crossed boundaries"
                 src="https://lelogama.go-jek.com/prime/upload/image/General_impact_-_Globe.svg"
+                style={rotate}
               />
             </div>
           </div>

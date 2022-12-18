@@ -11,42 +11,40 @@ const GoLoyalty = () => {
           <button className="first-a">View all products</button>
         </a>
       </div>
-      <div>
-        <div>
-          <div className="eight-first-img">
+      <div className="all-cards">
+        <div className="eight-first-img">
+          <img
+            alt="Gojek"
+            src="https://lelogama.go-jek.com/prime/upload/image/product-intro-card-bg-food.svg"
+          />
+        </div>
+
+        <ul className="eight-cards">
+          <li>
             <img
               alt="Gojek"
-              src="https://lelogama.go-jek.com/prime/upload/image/product-intro-card-bg-food.svg"
+              src="https://lelogama.go-jek.com/prime/upload/image/gofood-horizontal-logo-white.svg"
             />
-          </div>
-
-          <ul className="eight-cards">
-            <li>
-              <img
-                alt="Gojek"
-                src="https://lelogama.go-jek.com/prime/upload/image/gofood-horizontal-logo-white.svg"
-              />
-            </li>
-            <li>
-              <img
-                alt="Gojek"
-                src="https://lelogama.go-jek.com/prime/upload/image/gomed-horizontal-logo-white.svg"
-              />
-            </li>
-            <li>
-              <img
-                alt="Gojek"
-                src="https://lelogama.go-jek.com/prime/upload/image/gomart-horizontal-logo-white.svg"
-              />
-            </li>
-            <li>
-              <img
-                alt="Gojek"
-                src="https://lelogama.go-jek.com/prime/upload/image/goshop-horizontal-logo-white.svg"
-              />
-            </li>
-          </ul>
-        </div>
+          </li>
+          <li>
+            <img
+              alt="Gojek"
+              src="https://lelogama.go-jek.com/prime/upload/image/gomed-horizontal-logo-white.svg"
+            />
+          </li>
+          <li>
+            <img
+              alt="Gojek"
+              src="https://lelogama.go-jek.com/prime/upload/image/gomart-horizontal-logo-white.svg"
+            />
+          </li>
+          <li>
+            <img
+              alt="Gojek"
+              src="https://lelogama.go-jek.com/prime/upload/image/goshop-horizontal-logo-white.svg"
+            />
+          </li>
+        </ul>
 
         <div className="eight-food">
           <h3>Food &amp; Shopping</h3>
@@ -55,6 +53,74 @@ const GoLoyalty = () => {
             stepping out!
           </p>
         </div>
+
+        <div className="eight-second eight-first-img">
+          <img
+            alt="Gojek"
+            src="https://lelogama.go-jek.com/prime/upload/image/product-intro-card-bg-payments.svg"
+          />
+        </div>
+
+        <ul className="second-card">
+          <li>
+            <img
+              alt="Gojek"
+              src="https://lelogama.go-jek.com/prime/upload/image/gopay-horizontal-logo-white.svg"
+            />
+          </li>
+          <li>
+            <img
+              alt="Gojek"
+              src="https://lelogama.go-jek.com/prime/upload/image/gotagihan-horizontal-logo-white.svg"
+            />
+          </li>
+          <li>
+            <img
+              alt="Gojek"
+              src="https://lelogama.go-jek.com/prime/upload/image/gopaylater-horizontal-logo-white.svg"
+            />
+          </li>
+          <li>
+            <img
+              alt="Gojek"
+              src="https://lelogama.go-jek.com/prime/upload/image/gosure-horizontal-logo-white.svg"
+            />
+          </li>
+        </ul>
+
+        <div className="eight-third eight-first-img">
+          <img
+            alt="Gojek"
+            src="https://lelogama.go-jek.com/prime/upload/image/product-intro-card-bg-business.svg"
+          />
+        </div>
+
+        <ul className="third-card">
+          <li>
+            <img
+              alt="Gojek"
+              src="https://lelogama.go-jek.com/prime/upload/image/product-gobiz.svg"
+            />
+          </li>
+          <li>
+            <img
+              alt="Gojek"
+              src="https://lelogama.go-jek.com/prime/upload/image/Midtrans_Horizontal_white.svg"
+            />
+          </li>
+          <li>
+            <img
+              alt="Gojek"
+              src="https://lelogama.go-jek.com/prime/upload/image/Moka_Horizontal_inverse.svg"
+            />
+          </li>
+          <li>
+            <img
+              alt="Gojek"
+              src="https://lelogama.go-jek.com/prime/upload/image/GoStore_Horizontal_white.svg"
+            />
+          </li>
+        </ul>
       </div>
       <ul class="cards-details">
         <li className="li-1">Transport &amp; Logistics</li>

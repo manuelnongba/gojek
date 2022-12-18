@@ -78,7 +78,10 @@ const Footer = () => {
                 <li>
                   <a href="https://web.facebook.com/gojekindonesia">
                     <i>
-                      <img src="./fb.png" alt="fb" />
+                      <img
+                        src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329059/fb_dgdvmi.png"
+                        alt="fb"
+                      />
                     </i>
                   </a>
                 </li>
@@ -86,7 +89,10 @@ const Footer = () => {
                 <li>
                   <a href="https://twitter.com/gojekindonesia">
                     <i>
-                      <img src="./twitter.png" alt="twitter" />
+                      <img
+                        src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329093/twitter_haiyas.png"
+                        alt="twitter"
+                      />
                     </i>
                   </a>
                 </li>
@@ -94,7 +100,10 @@ const Footer = () => {
                 <li>
                   <a href="https://www.instagram.com/gojekindonesia/">
                     <i>
-                      <img src="./instagram.png" alt="ig" />
+                      <img
+                        src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329114/instagram_v8h7cg.png"
+                        alt="ig"
+                      />
                     </i>
                   </a>
                 </li>
@@ -102,7 +111,10 @@ const Footer = () => {
                 <li>
                   <a href="https://www.youtube.com/channel/UCmlKSK0OKn_B3oPwElW4n5w">
                     <i>
-                      <img src="./yt.png" alt="yt" />
+                      <img
+                        src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329133/yt_fhvvsa.png"
+                        alt="yt"
+                      />
                     </i>
                   </a>
                 </li>
@@ -115,7 +127,10 @@ const Footer = () => {
                 <li>
                   <a href="https://play.google.com/store/apps/details?id=com.gojek.app&amp;af_force_deeplink=true&amp;pid=Go-Jek_Web&amp;is_retargeting=false&amp;af_click_lookback=7d&amp;utm_content=Play_Store_Android&amp;utm_source=Go-Jek_Web&amp;utm_medium=Button&amp;af_adset=Play_Store_Android&amp;af_ad=Play_Store_Android&amp;utm_campaign=Website_Footer_Download_Button_Google_Play_Store&amp;af_channel=Button&amp;c=Website_Footer_Download_Button_Google_Play_Store">
                     <i>
-                      <img src="./google.png" alt="google" />
+                      <img
+                        src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329204/google_hnx07b.png"
+                        alt="google"
+                      />
                     </i>
                     {/* <span>Play store</span> */}
                   </a>
@@ -124,7 +139,10 @@ const Footer = () => {
                 <li>
                   <a href="https://apps.apple.com/id/app/gojek/id944875099?af_force_deeplink=true&amp;pid=Go-Jek_Web&amp;is_retargeting=false&amp;af_click_lookback=7d&amp;utm_content=Apple_App_Store&amp;utm_source=Go-Jek_Web&amp;utm_medium=Button&amp;af_adset=Apple_App_Store&amp;af_ad=Apple_App_Store&amp;utm_campaign=Website_Footer_Download_Button_Apple_App_Store&amp;af_channel=Button&amp;c=Website_Footer_Download_Button_Apple_App_Store">
                     <i>
-                      <img src="./apple.png" alt="apple" />
+                      <img
+                        src="https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329206/apple_bvjjjh.png"
+                        alt="apple"
+                      />
                     </i>
                   </a>
                 </li>

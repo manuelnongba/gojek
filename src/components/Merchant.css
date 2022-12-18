@@ -1,0 +1,41 @@
+.merchant-one {
+  height: 780px;
+  width: 100%;
+  background: linear-gradient(rgba(59, 58, 58, 0.5), rgba(112, 110, 110, 0.5)),
+    url("https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329819/merchant_k3lf1k.webp");
+  background-size: 1450px;
+}
+
+.merchant-card {
+  background-color: rgba(16, 24, 32);
+  border: 0;
+  border-radius: 30px;
+  width: 250px;
+  height: 200px;
+  margin-top: 70px;
+  padding: 20px 20px;
+  z-index: 2;
+  color: #fff;
+}
+
+.topic {
+  font-size: 24px;
+}
+
+.merchant-food {
+  position: absolute;
+  left: 130px;
+  margin-top: -15px;
+}
+
+.merchant-cash {
+  position: absolute;
+  left: 530px;
+  margin-top: -15px;
+}
+
+.merchant-sale {
+  position: absolute;
+  left: 930px;
+  margin-top: -15px;
+}

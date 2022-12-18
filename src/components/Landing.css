@@ -4,6 +4,7 @@
 
 .landing-first {
   --tw-text-opacity: 1;
+  height: 670px;
 }
 
 .landing-first video {
@@ -12,6 +13,7 @@
   left: 0;
   z-index: -1;
   width: 100%;
+  height: 1000px;
   object-fit: cover;
 }
 
@@ -147,7 +149,7 @@
   background-color: rgba(0, 136, 13, var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
-  margin-top: 1.75rem;
+  margin-top: 10px;
 }
 
 .landing-third-sec-sub {
@@ -174,6 +176,7 @@
   align-items: center;
   margin-top: 150px;
   margin-left: 50px;
+  font-size: 34px;
 }
 
 .landing-190 p {
@@ -202,6 +205,7 @@
   align-items: center;
   margin-top: 150px;
   margin-left: 50px;
+  font-size: 34px;
 }
 
 .landing-2 p {
@@ -230,6 +234,7 @@
   align-items: center;
   margin-top: 150px;
   margin-left: 50px;
+  font-size: 34px;
 }
 
 .landing-900 p {
@@ -258,6 +263,7 @@
   align-items: center;
   margin-top: 150px;
   margin-left: 50px;
+  font-size: 34px;
 }
 
 .landing-jump p {
@@ -286,11 +292,11 @@
   width: 100%;
   height: 824px;
   margin-right: 0;
-  background-image: url("../../public/game.png");
+  background-image: url("https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329394/game_mj6lwz.webp");
 }
 .slider__btn {
   position: absolute;
-  top: 50%;
+  top: 70%;
   z-index: 10;
 
   border: none;
@@ -298,8 +304,8 @@
   font-family: inherit;
   color: #333;
   border-radius: 50%;
-  height: 5.5rem;
-  width: 5.5rem;
+  height: 4.4rem;
+  width: 4.2rem;
   font-size: 3.25rem;
   cursor: pointer;
 }
@@ -343,12 +349,11 @@
   width: 100%;
   height: 508px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../public/joinride.png");
+    url("https://res.cloudinary.com/drxwuqu3v/image/upload/v1671330186/joinride_ycewzf.webp");
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
   position: absolute;
   top: 2900px;
-  z-index: 20px;
 }
 
 .landing-fifth h2 {
@@ -361,6 +366,7 @@
   font-size: 72px;
   letter-spacing: 0.8px;
   line-height: 87px !important;
+  margin-top: 70px;
 }
 
 .landing-six {
@@ -378,6 +384,33 @@
   margin-top: 230px;
   padding: 250px;
   position: relative;
+  z-index: -1;
+}
+
+.six-sub {
+  position: absolute;
+  top: 3300px;
+  color: #fff;
+}
+
+.six-sub a {
+  border: 0 solid;
+  text-decoration: inherit;
+  display: inline-block;
+  font-size: 16px;
+  height: 44px;
+  border-radius: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  line-height: 44px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 136, 13, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 64px;
+  margin-left: 30px;
 }
 
 .landing-six h3 {
@@ -389,21 +422,26 @@
 }
 
 .landing-six-img1 {
-  background-color: black;
-  width: 320px;
-  padding: 15px;
+  background-color: rgba(22, 34, 46);
+  width: 300px;
+  padding: 40px 35px;
   height: 300px;
   border: 0 solid;
   border-radius: 40px;
   position: absolute;
   top: -100px;
   left: 100px;
+  margin-right: 200px;
+}
+
+.landing-six-img1 img {
+  margin-top: -100px;
 }
 
 .landing-six-img2 {
-  background-color: black;
-  width: 320px;
-  padding: 15px;
+  background-color: rgba(22, 34, 46);
+  width: 300px;
+  padding: 40px 35px;
   height: 300px;
   border: 0 solid;
   border-radius: 40px;
@@ -412,16 +450,24 @@
   left: 500px;
 }
 
+.landing-six-img2 img {
+  margin-top: -100px;
+}
+
 .landing-six-img3 {
-  background-color: black;
-  width: 320px;
-  padding: 15px;
+  background-color: rgba(22, 34, 46);
+  width: 300px;
+  padding: 40px 35px;
   height: 300px;
   border: 0 solid;
   border-radius: 40px;
   position: absolute;
   top: -100px;
   left: 900px;
+}
+
+.landing-six-img3 img {
+  margin-top: -100px;
 }
 
 .landing-seven {
@@ -433,14 +479,20 @@
   padding-top: 120px;
   padding-bottom: 120px;
   margin-top: -96px;
+  border: 0;
   border-top-left-radius: 96px;
   border-top-right-radius: 96px;
+  height: 650px;
+}
+
+.landing-seven h2 {
+  font-size: 44px;
 }
 
 .free-couns {
   height: 450px;
   width: 700px;
-  background-image: url("../../public/freecounselling.png");
+  background-image: url("https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329423/freecounselling_swa5og.webp");
   background-size: 700px 450px;
   border: 0 solid;
   border-top-left-radius: 96px;
@@ -454,7 +506,7 @@
 .free-counselling {
   height: 450px;
   width: 700px;
-  background-image: url("../../public/freecounselling.png");
+  background-image: url("https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329423/freecounselling_swa5og.webp");
   background-size: 700px 450px;
   border: 0 solid;
   border-top-left-radius: 96px;
@@ -506,7 +558,7 @@
 .parental-insurance {
   height: 450px;
   width: 700px;
-  background-image: url("../../public/parentalguide.png");
+  background-image: url("https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329511/parentalguide_utvuo3.webp");
   background-size: 700px 450px;
   border: 0 solid;
   border-top-left-radius: 96px;
@@ -553,7 +605,7 @@
 .wellness {
   height: 450px;
   width: 700px;
-  background-image: url("../../public/wellness.png");
+  background-image: url("https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329530/wellness_gunw1v.webp");
   background-size: 700px 450px;
   border: 0 solid;
   border-top-left-radius: 96px;
@@ -599,7 +651,7 @@
   right: 100px;
 }
 
-.fly {
+/* .fly {
   height: 450px;
   width: 700px;
   background-image: url("../../public/fly.png");
@@ -644,7 +696,7 @@
   position: absolute;
   bottom: 50px;
   right: 100px;
-}
+} */
 
 .landing-seven .slider__btn {
   position: absolute;
@@ -720,6 +772,40 @@
   margin-top: 50px;
   transform: rotate(80deg);
   margin-left: 500px;
+}
+
+.all-cards {
+  margin-bottom: -1000px;
+}
+
+.eight-second {
+  position: absolute;
+  top: -530px;
+  left: -400px;
+  background-color: lightblue !important;
+}
+
+.eight-third {
+  position: absolute;
+  top: -1120px;
+  right: -400px;
+  background-color: rgba(147, 50, 142) !important;
+}
+
+.second-card {
+  position: absolute;
+  top: 330px;
+  left: 100px;
+  transform: rotate(350deg);
+  z-index: 1;
+}
+
+.third-card {
+  position: absolute;
+  top: 300px;
+  right: 330px;
+  transform: rotate(350deg);
+  z-index: 1;
 }
 
 .landing-eight .eight-cards {
@@ -844,6 +930,36 @@
   padding-top: 0.1px;
 }
 
+.countries {
+  position: relative;
+}
+
+.countries h3 {
+  text-align: center;
+}
+
+.countries p {
+  justify-content: center;
+  margin-left: 550px;
+  width: 400px;
+}
+
+.countries .button-a {
+  position: absolute;
+  top: 50px;
+  left: 480px;
+  width: 50px;
+  height: 30px;
+}
+
+.countries .button-b {
+  position: absolute;
+  top: 50px;
+  right: 410px;
+  width: 50px;
+  height: 30px;
+}
+
 .nine-top h2 {
   --tw-bg-opacity: 1;
   text-align: center;
@@ -869,7 +985,7 @@
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
   align-items: center;
-  margin-left: 600px;
+  margin-left: 640px;
 }
 
 .landing-nine .thailand h3 {
@@ -900,27 +1016,34 @@
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
   align-items: center;
-  margin-left: 600px;
+  margin-left: 640px;
 }
 
 .landing-nine .globe {
   margin-left: 350px;
   margin-bottom: 500px;
   width: 700px;
+  margin-top: -450px;
+  margin-bottom: 20px;
+}
+
+.globe:hover {
+  margin-left: 0px;
+  width: 1400px;
 }
 
 .landing-ten {
   position: relative;
   --tw-bg-opacity: 1;
   background-color: rgba(24, 36, 48, var(--tw-bg-opacity));
-  background-image: url("../../public/landing-ten.png");
+  background-image: url("https://res.cloudinary.com/drxwuqu3v/image/upload/v1671329597/landing-ten_nhox38.png");
   min-height: 500px;
   background-size: 1500px;
   margin-top: -20px;
   height: 800px;
 }
 
-.landing-ten h1 {
+.landing-ten h2 {
   color: #fff;
   position: absolute;
   top: 300px;
