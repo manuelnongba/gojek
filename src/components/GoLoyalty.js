@@ -123,15 +123,11 @@ const GoLoyalty = () => {
         </ul>
       </div>
       <ul class="cards-details">
-        <li className="li-1">Transport &amp; Logistics</li>
-
         <li className="li-2">Payments</li>
 
         <li className="li-3">Food &amp; Shopping</li>
 
         <li className="li-4">Business</li>
-
-        <li className="li-5">Entertainment</li>
       </ul>
       <div>
         <div className="gojek-loyalty">

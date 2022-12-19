@@ -181,6 +181,7 @@ iframe {
   width: 400px;
   height: 250px;
   border-radius: 35px;
+  border: 0 solid;
 }
 
 .quote {

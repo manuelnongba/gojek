@@ -18,7 +18,10 @@ const Careers = () => {
             Hard to get through.<br></br> Harder to leave.
           </h1>
           <form>
-            <input type="text" />
+            <input
+              type="text"
+              placeholder="Search by role (Eg. Marketing, Designer...)"
+            />
             <select>
               <option>Indonesia</option>
               <option>Thailand</option>
@@ -125,17 +128,115 @@ const Careers = () => {
         </section>
         <section className="career-five">
           <h1>There's never a dull moment</h1>
+          <img
+            src="https://lelogama.go-jek.com/prime/upload/image/1-_EP-Gallery-314x348.jpg"
+            alt=""
+            className="smaller-img"
+          />
+          <img
+            src="https://lelogama.go-jek.com/prime/upload/image/3-_EP-Gallery-314x348.jpg"
+            alt=""
+            className="wider-img"
+          />
+          <iframe
+            src="https://www.youtube.com/embed/ps5fbTjuZe0"
+            title="What is Culture? - GOJEK Tech"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <br></br>
+          <img
+            src="https://lelogama.go-jek.com/prime/upload/image/4-_EP-Gallery-314x348.jpg"
+            alt=""
+            className="smaller-img"
+          />
+          <img
+            src="https://lelogama.go-jek.com/prime/upload/image/5-_EP-Gallery-314x348.jpg"
+            alt=""
+            className="smaller-img"
+          />
+          <img
+            src="https://lelogama.go-jek.com/prime/upload/image/6-_EP-Gallery-658x348.jpg"
+            alt=""
+            className="wider-img"
+          />
+          <img
+            src="https://lelogama.go-jek.com/prime/upload/image/7-_EP-Gallery-658x348.jpg"
+            alt=""
+            className="wider-img"
+          />
+          <img
+            src="https://lelogama.go-jek.com/prime/upload/image/8-_EP_Gallery-429x348px.jpg"
+            alt=""
+            className="smaller-img"
+          />
+          <img
+            src="https://lelogama.go-jek.com/prime/upload/image/9-_EP-Gallery-314x348.jpg"
+            alt=""
+            className="smaller-img"
+          />
         </section>
         <section className="career-six">
           <span>#winningmoments</span>
           <h2>When 12 engineers managed 1 million drivers.</h2>
           <p>
-            Back in 2015, Gojek's first-ever engineering team realised their
+            Back in 2015, Gojek's first-ever engineering team realised their{" "}
+            <br></br>
             potential, and impact.
           </p>
           <a href="https://blog.gojekengineering.com/how-go-jek-manages-1-million-drivers-with-12-engineers-part-1-978af9ccfd32">
             Know more
           </a>
+          <img
+            src="https://lelogama.go-jek.com/prime/upload/image/When_12_engineers_managed_1_million_drivers.svg"
+            alt=""
+          />
+        </section>
+        <section className="career-seven">
+          <span>#winningmoments</span>
+          <h1>How Kafka solved a cultural problem</h1>
+          <p>
+            Every engineer's playground, Kafka fixed a critical cultural problem
+            <br></br> for Gojek. Find out how.
+          </p>
+          <a href="https://blog.gojekengineering.com/how-go-jek-manages-1-million-drivers-with-12-engineers-part-1-978af9ccfd32">
+            Know more
+          </a>
+          <img
+            src="https://lelogama.go-jek.com/prime/upload/image/Creative_Labs_wins_Media_Agency_of_the_Year.svg"
+            alt=""
+          />
+        </section>
+        <section className="career-eight">
+          <h1>We're driven by stories</h1>
+          <div className="career-vid-one">
+            <iframe
+              title="career-video"
+              src="https://www.youtube.com/embed/9p-wZG3RXqs?enablejsapi=1&version=3&playerapiid=ytplayer&controls=1&showinfo=0&rel=0&autoplay=0&loop=0&mute=0&playsinline=1"
+            ></iframe>
+            <div>
+              <h3 className="quote">
+                "I want to see my design changing the world. And this was a step
+                closer."
+              </h3>
+              <p>- Fatema, Product Designer</p>
+            </div>
+          </div>
+          <div className="career-vid-two">
+            <iframe
+              title="Video Detail"
+              src="https://www.youtube.com/embed/flQAFAn7tQg?enablejsapi=1&version=3&playerapiid=ytplayer&controls=1&showinfo=0&rel=0&autoplay=0&loop=0&mute=0&playsinline=1"
+              className="iframe"
+            ></iframe>
+            <div>
+              <h3 className="quote">
+                "It's a really safe space for employees to practise public
+                speaking, internally."
+              </h3>
+              <p>- Dian, SVP Product Management</p>
+            </div>
+          </div>
         </section>
       </div>
     </motion.div>

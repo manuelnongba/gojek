@@ -537,6 +537,7 @@
   font-size: 16px;
   min-width: 44px;
   height: 44px;
+  cursor: pointer;
   border-radius: 24px;
   padding-left: 24px;
   padding-right: 24px;
@@ -589,6 +590,7 @@
   font-size: 16px;
   min-width: 44px;
   height: 44px;
+  cursor: pointer;
   border-radius: 24px;
   padding-left: 24px;
   padding-right: 24px;
@@ -638,6 +640,7 @@
   font-size: 16px;
   min-width: 44px;
   height: 44px;
+  cursor: pointer;
   border-radius: 24px;
   padding-left: 24px;
   padding-right: 24px;
@@ -759,6 +762,10 @@
   color: rgba(255, 255, 255, var(--tw-text-opacity));
   align-items: center;
   margin-left: 600px;
+}
+
+.landing-eight button {
+  cursor: pointer;
 }
 
 .landing-eight .eight-first-img {
@@ -946,6 +953,7 @@
 
 .countries .button-a {
   position: absolute;
+  cursor: pointer;
   top: 50px;
   left: 480px;
   width: 50px;
@@ -954,6 +962,7 @@
 
 .countries .button-b {
   position: absolute;
+  cursor: pointer;
   top: 50px;
   right: 410px;
   width: 50px;
@@ -975,6 +984,7 @@
 .nine-top button {
   border: 0 solid;
   font-size: 16px;
+  cursor: pointer;
   height: 44px;
   border-radius: 24px;
   padding-left: 24px;
@@ -1006,6 +1016,7 @@
 .second-newsroom {
   border: 0 solid;
   font-size: 16px;
+  cursor: pointer;
   height: 44px;
   border-radius: 24px;
   padding-left: 24px;

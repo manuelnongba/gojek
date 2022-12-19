@@ -169,8 +169,9 @@
 }
 
 .career-five {
-  height: 1000px;
+  height: 1700px;
   background-color: rgba(16, 24, 32);
+  padding-left: 150px;
 }
 
 .career-five h1 {
@@ -180,10 +181,39 @@
   padding-top: 100px;
 }
 
+.career-five .smaller-img {
+  width: 300px;
+  height: 400px;
+  margin: 15px 15px;
+  border: 0 solid;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.career-five .wider-img {
+  width: 480px;
+  height: 400px;
+  margin: 0 20px;
+  border: 0 solid;
+  border-radius: 25px;
+}
+
+.career-five iframe {
+  height: 400px;
+  width: 300px;
+}
+
 .career-six {
   height: 500px;
   background-color: rgba(114, 0, 98);
   color: #fff;
+  padding-left: 150px;
+  padding-top: 100px;
+  position: relative;
+  border: 0 solid;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-top: -100px;
 }
 
 .career-six a {
@@ -203,4 +233,80 @@
   --tw-text-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
   color: rgba(16, 24, 32, var(--tw-text-opacity));
+}
+
+.career-six img {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
+
+.career-seven {
+  height: 400px;
+  background-color: rgba(0, 133, 173);
+  color: #fff;
+  padding-left: 150px;
+  padding-top: 100px;
+  position: relative;
+  border: 0 solid;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-top: -100px;
+}
+
+.career-seven a {
+  border: 0 solid;
+  border-color: currentColor;
+  text-decoration: inherit;
+  display: inline-block;
+  /* font-family: MaisonNeue-Demi; */
+  font-size: 16px;
+  min-width: 44px;
+  height: 44px;
+  border-radius: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  line-height: 44px;
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  color: rgba(16, 24, 32, var(--tw-text-opacity));
+}
+
+.career-seven img {
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+}
+
+.career-eight {
+  height: 800px;
+}
+
+.career-eight h1 {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 44px;
+}
+
+.career-vid-one {
+  display: inline-block;
+  margin-left: 150px;
+  padding-top: 30px;
+}
+
+.career-vid-one iframe {
+  height: 280px;
+  width: 500px;
+  border: 0 solid;
+}
+.career-vid-two {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.career-vid-two iframe {
+  height: 280px;
+  width: 500px;
+  border: 0 solid;
 }
