@@ -20,11 +20,16 @@
 .product-three {
   position: relative;
   background-color: rgb(99, 185, 99);
+  border: 0;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-top: -95px;
 }
 
 .transport-lo img {
+  height: 555px;
   position: absolute;
-  right: 0;
+  right: 6px;
   top: 0;
   z-index: 1;
 }
@@ -48,7 +53,7 @@
   border-radius: 30px;
   width: 250px;
   height: 200px;
-  margin-top: 100px;
+  margin-top: 70px;
   padding: 20px 20px;
   z-index: 2;
 }
@@ -81,14 +86,33 @@
 .product-four {
   background-color: rgb(94, 191, 223);
   position: relative;
+  border: 0;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-top: -95px;
 }
 
 .product-five {
   background-color: rgb(229, 121, 121);
+  border: 0;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-top: -95px;
 }
 
 .product-six {
+  background-color: rgba(255, 155, 214);
+  border: 0;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-top: -95px;
+}
+.product-seven {
   background-color: rgb(206, 138, 206);
+  border: 0;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-top: -95px;
 }
 
 .product a {

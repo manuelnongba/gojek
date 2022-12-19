@@ -196,5 +196,46 @@ iframe {
   position: absolute;
   right: 40px;
 }
-/* 
-"https://www.youtube.com/embed/aXTUdy0Svy0?enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer&amp;controls=1&amp;showinfo=0&amp;rel=0&amp;autoplay=0&amp;loop=0&amp;mute=0&amp;playsinline=1"> */
+
+.driver-four {
+  background-color: rgba(0, 133, 173);
+  position: relative;
+  height: 450px;
+}
+
+.driver-four h2 {
+  font-size: 44px;
+  color: #fff;
+}
+
+.driver-four a {
+  color: #fff;
+}
+
+.driver-man img {
+  height: 300px;
+  position: absolute;
+  right: 150px;
+  top: 150px;
+}
+
+.driver-goride {
+  position: absolute;
+  left: 100px;
+  bottom: 150px;
+}
+.driver-gocar {
+  position: absolute;
+  left: 300px;
+  bottom: 150px;
+}
+.driver-gosend {
+  position: absolute;
+  left: 500px;
+  bottom: 150px;
+}
+.driver-gobox {
+  position: absolute;
+  left: 700px;
+  bottom: 150px;
+}

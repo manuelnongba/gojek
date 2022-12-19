@@ -23,6 +23,10 @@ body {
   margin-left: 150px;
 }
 
+.header-img img {
+  color: #fff !important;
+}
+
 .header .header-right a:hover {
   border-bottom: 1px solid white;
 }
@@ -69,6 +73,14 @@ body {
   margin-right: 50px;
 }
 
+.header-careers {
+  box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
+  margin-right: 50px;
+}
 /* .header-blog {
   box-sizing: border-box;
   color: inherit;
@@ -95,6 +107,17 @@ body {
   line-height: 27px;
   box-sizing: border-box;
   margin-right: 50px;
+  position: relative;
+}
+
+.header-partner .arrow {
+  font-size: 22px;
+  position: absolute;
+  top: -5px;
+}
+
+.header-partner .arrow:hover {
+  padding-bottom: 3.5px;
 }
 
 .header-company {

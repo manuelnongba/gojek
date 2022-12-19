@@ -44,7 +44,7 @@ const Header = () => {
           Home
         </NavLink>
         <span className="header-partner" onClick={handleClick}>
-          Partner with us
+          Partner with us <span className="arrow">⌄</span>
         </span>
         <div
           style={{ display: isVisible ? "block" : "none" }}
@@ -54,19 +54,12 @@ const Header = () => {
           <NavLink to="/driver">Driver Partner</NavLink>
           <NavLink to="/merchant">Merchant Partner</NavLink>
         </div>
-        {/* <NavLink to="/employee" className="header-careers">
-          Careers
-        </NavLink> */}
-        {/* <span className="header-company">Company</span> */}
         <NavLink to="/products" className="header-products">
           Products
         </NavLink>
-        {/* <NavLink to="/blog" className="header-blog">
-          Blog
+        <NavLink to="/employee" className="header-careers">
+          Careers
         </NavLink>
-        <NavLink to="/help" className="header-help">
-          Help
-        </NavLink> */}
         <span className="header-lang">en</span>
       </div>
     </div>
